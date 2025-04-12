@@ -20,7 +20,6 @@ pip install opencv-python numpy
 
 ## 📁 Project Structure
 
-.
 ├── image.jpg               # Input image (optional if using webcam)
 
 ├── temp_face.xml           # Haar cascade XML file (downloaded automatically)
