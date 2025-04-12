@@ -35,7 +35,7 @@ pip install opencv-python numpy
 
 ## 🚀 How to Use
 
-# 📷 Face Detection on Image
+### 📷 Face Detection on Image
 
 1. Place your input image in the project directory and name it image.jpg.
     (Or modify the script to use a different image file.)
@@ -48,7 +48,7 @@ python app.py
 
 3. A window will open displaying the image with detected faces. Press any key to close it.
 
-# 🎥 Real-Time Face Detection via Webcam
+### 🎥 Real-Time Face Detection via Webcam
 
 1.    Ensure your webcam is connected and accessible.
 
@@ -71,11 +71,11 @@ python webcam_detect.py
 
     Detected faces are highlighted with red rectangles.
 
-## 😄 Smile Detection (Image & Webcam)
+### 😄 Smile Detection (Image & Webcam)
 
 In addition to face detection, the project also detects smiles using Haar cascades.
 
-#💡 How It Works
+#### 💡 How It Works
 
     After detecting a face, a region of interest (ROI) is extracted from the face area.
 
@@ -83,7 +83,7 @@ In addition to face detection, the project also detects smiles using Haar cascad
 
     If a smile is detected, it's highlighted with a different color box (or labeled).
 
-# 🧪 Run Smile Detection on Webcam
+#### 🧪 Run Smile Detection on Webcam
 ```
 python webcam_smile_detect.py
 ```
