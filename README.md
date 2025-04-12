@@ -22,13 +22,20 @@ pip install opencv-python numpy
 
 .
 ├── image.jpg               # Input image (optional if using webcam)
+
 ├── temp_face.xml           # Haar cascade XML file (downloaded automatically)
+
 ├── face_detect.py          # Script for image face detection
+
 ├── webcam_detect.py        # Script for real-time face detection using webcam
+
 ├── webcam_smile_detect.py  # Script for real-time face and smile detection using webcam
+
 └── README.md               # Project documentation
 
+
 ## 🚀 How to Use
+
 # 📷 Face Detection on Image
 
 1. Place your input image in the project directory and name it image.jpg.
