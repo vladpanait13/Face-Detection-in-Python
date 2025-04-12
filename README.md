@@ -16,6 +16,7 @@ Make sure you have the following Python packages installed:
 
 ```bash
 pip install opencv-python numpy
+```
 
 ## 📁 Project Structure
 
@@ -35,7 +36,9 @@ pip install opencv-python numpy
 
 2. Run the image detection script:
 
+```
 python app.py
+```
 
 3. A window will open displaying the image with detected faces. Press any key to close it.
 
@@ -45,7 +48,9 @@ python app.py
 
 2.    Run the webcam detection script:
 
+```
 python webcam_detect.py
+```
 
 3.    A real-time video feed will appear with faces detected in live frames.
     Press the q key to quit.
@@ -73,5 +78,6 @@ In addition to face detection, the project also detects smiles using Haar cascad
     If a smile is detected, it's highlighted with a different color box (or labeled).
 
 # 🧪 Run Smile Detection on Webcam
-
+```
 python webcam_smile_detect.py
+```
