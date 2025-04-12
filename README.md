@@ -80,10 +80,10 @@ python webcam_detect.py
 
 ## 🧠 How It Works
 
-The Haar cascade XML is downloaded at runtime from OpenCV's GitHub.
-Input (image or webcam frame) is converted to grayscale.
-The classifier scans the input for facial features.
-Detected faces are highlighted with red rectangles.
+- The Haar cascade XML is downloaded at runtime from OpenCV's GitHub.
+- Input (image or webcam frame) is converted to grayscale.
+- The classifier scans the input for facial features.
+- Detected faces are highlighted with red rectangles.
 
 
 
@@ -96,9 +96,9 @@ In addition to face detection, the project also detects smiles using Haar cascad
 
 #### 💡 How It Works
 
- After detecting a face, a region of interest (ROI) is extracted from the face area.
- A separate Haar cascade classifier (haarcascade_smile.xml) is applied to the ROI.
- If a smile is detected, it's highlighted with a different color box (or labeled).
+ - After detecting a face, a region of interest (ROI) is extracted from the face area.
+ - A separate Haar cascade classifier (haarcascade_smile.xml) is applied to the ROI.
+ - If a smile is detected, it's highlighted with a different color box (or labeled).
 
 
 
